@@ -1,0 +1,32 @@
+# <type>(<scope>): <subject>
+# Limit the title to 50 characters, e.g., feat: add hat wobble
+
+
+# <body> 
+# Wrap lines at 72 characters
+
+# Issue #
+
+
+############### Commit type
+# feat : commit that adds a new feature
+# fix : commit that fixes a bug
+# design : commit related to CSS/UI design changes
+# refactor : commit that involves refactoring
+# style : commit related to formatting, missing semicolons, etc., without changing production code
+# docs : commit that includes changes to the documentation
+# test : commit that adds missing tests or refactors tests, without changing production code
+# chore : commit for other changes or modifications of build/scripts
+# rename : commit for renaming or relocating files/folders only
+# remove : commit for deleting files/folders only
+
+###############  Check list 
+# <subject>
+# [] Start the title with a capital letter
+# [] Did you write the title in the form of a command?
+# [] Do not use periods in the title
+# [] Include an empty line between the subject and body
+# <body> 
+# [] Using bullet points (*) to list the individual changes
+# [] It should be written in the form of declarative sentences
+# [] Focus on what and why rather than how. It helps understand the purpose of the changes 
