@@ -6,6 +6,7 @@
 # Wrap lines at 72 characters
 
 # Issue #
+# Close #
 
 
 ############### Commit type
