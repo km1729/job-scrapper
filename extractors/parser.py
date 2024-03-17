@@ -19,7 +19,6 @@ class RemoteOk(ParserInterface):
             for job in job_boards:
                 company = job.find("h3", itemprop="name").text.strip()
                 title = job.find("td", class_="company").find("h2", itemprop="title").text.strip()
-                print(title)
                 location_salary = job.find("td", class_="company").find_all("div", class_="location")
                 salary = location_salary[-1].text
                 link= "/abc"
